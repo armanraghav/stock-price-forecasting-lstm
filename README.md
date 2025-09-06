@@ -34,42 +34,36 @@ This project is a stock price forecasting web application using a deep learning 
 
 1. Clone the repo:
 
+```
 git clone https://github.com/yourusername/stock-price-forecast.git
+```
+```
 cd stock-price-forecast
-
-text
+```
 
 2. Create and activate virtual environment:
-
+```
 python -m venv venv
+```
+```
 source venv/bin/activate # On Windows: venv\Scripts\activate
-
-text
-
+```
 3. Install dependencies:
-
+```
 pip install -r requirements.txt
-
-text
-
+```
 4. Set up environment variables:
-
+```
 export API_KEY="your-secure-api-key"
-
-text
-
+```
 5. Run Flask API:
-
+```
 python app.py
-
-text
-
+```
 6. In another terminal, run Streamlit frontend:
-
+```
 streamlit run frontend.py
-
-text
-
+```
 ---
 
 ## Usage
@@ -102,25 +96,22 @@ text
 - `x-api-key`: your API key
 
 ### Request JSON body
-
+```
 {
 "features_sequence": [ [num, num, ..., num], ..., [num, num, ..., num] ],
 "days": 30
 }
-
-text
+```
 - `features_sequence`: array of 60 time steps, each an array of 12 numerical features.
 - `days`: integer (1 to 60) specifying number of days to predict.
 
 ### Response JSON
-
+```
 {
 "predicted_price": float,
 "future_predictions": [float]
 }
-
-text
-
+```
 ---
 
 ## Security
@@ -145,5 +136,3 @@ MIT License
 - Inspiration from open-source forecasting projects.
 
 ---
-
-Feel free to customize this README to match your repository details and workflow.
