@@ -136,4 +136,4 @@ MIT License
 - Inspiration from open-source forecasting projects.
 
 ---
-![](https://i.pinimg.com/originals/cb/07/60/cb07601b2d5a4335c20880ea71b82edd.gif)
+![stock_market.gif](https://i.pinimg.com/originals/cb/07/60/cb07601b2d5a4335c20880ea71b82edd.gif)
