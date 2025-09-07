@@ -1,3 +1,4 @@
+![](https://i.pinimg.com/originals/cb/07/60/cb07601b2d5a4335c20880ea71b82edd.gif)
 # Stock Price Forecasting with LSTM and Streamlit
 
 This project is a stock price forecasting web application using a deep learning LSTM model. It includes a Flask API backend that serves predictions and a Streamlit frontend for user interaction and visualization.
@@ -136,4 +137,4 @@ MIT License
 - Inspiration from open-source forecasting projects.
 
 ---
-![stock_market.gif](https://i.pinimg.com/originals/cb/07/60/cb07601b2d5a4335c20880ea71b82edd.gif)
+
